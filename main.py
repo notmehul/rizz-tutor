@@ -3,7 +3,7 @@ from groq import Groq
 from typing import Generator
 
 st.title("Rizz Teacher")
-st.image("default.jpeg", width=500)
+st.image("default.jpeg", width=500, use_column_width='auto')
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
